@@ -3,3 +3,18 @@
     padding: 0 ;
     box-sizing: border-box;
 }
+
+.body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color:#FF7518;
+}
+
+header {
+
+}
+
+main{
+    flex: 1 0 auto;
+}
