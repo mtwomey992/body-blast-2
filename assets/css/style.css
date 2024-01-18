@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color:#FF7518;
+    
+    
 }
 
 header {
-
+    color:#FF7518;
 }
 
 main{
     flex: 1 0 auto;
+    background-image: url(/assets/images/banner.jpg) cover;
 }
