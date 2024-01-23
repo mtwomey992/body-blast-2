@@ -62,8 +62,8 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
+    box-shadow: 0 2px 2px #FF7518;
+    display:none;
     top: 100%;
 }
 
@@ -79,6 +79,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 main{
     flex: 1 0 auto;
     margin-top: 60px;
