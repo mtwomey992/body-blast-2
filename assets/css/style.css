@@ -16,6 +16,7 @@ body{
     
 }
 
+
 header {
     background-color:#ffffff;
     padding: 0 1rem;
@@ -83,5 +84,42 @@ nav {
 main{
     flex: 1 0 auto;
     margin-top: 60px;
-    
+   
+
+}
+
+@media screen and (min-width: 768px){
+    nav{
+        display: block;
+        position:relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+
+    }
+
+    .nav-toggle-label{
+        display: none ;
+    }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin:0 0.5rem;
+
+    }
+    main{
+        margin-top: 110px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    menu a:hover {
+        border-bottom: 1px solid #FF7518;
+    }
 }
