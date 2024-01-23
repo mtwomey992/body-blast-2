@@ -23,10 +23,53 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #FF7518;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    font-family: 'angkor', sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FF7518;
+}
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px ;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+
+}
+
+.active{
+    border-bottom: 1px solid #FF7518;
+}
+
+nav{
+    position:absolute;
+    background-color: #ffffff;
+    width: 100%;
+    padding:0 1 rem;
+    box-shadow: 0 2px 2px #FF7518;
+    display: none;
+    top: 100%;
+}
+#nav-toggle:checked~nav{
+    display:block;
+}
 main{
     flex: 1 0 auto;
-    background-color: black;
+  
     
 }
