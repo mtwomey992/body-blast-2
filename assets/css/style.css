@@ -2,6 +2,7 @@
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box;
+   
 }
 
 body{
@@ -9,7 +10,9 @@ body{
     display: flex;
     flex-direction: column;
     color:#FF7518;
+    text-align: justify;
     
+
     
 }
 
@@ -19,5 +22,6 @@ header {
 
 main{
     flex: 1 0 auto;
-    background-image: url(/assets/images/banner.jpg) cover;
+    background-color: black;
+    
 }
