@@ -53,10 +53,6 @@ h1{
 
 }
 
-.active{
-    border-bottom: 1px solid #FF7518;
-}
-
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -88,6 +84,13 @@ main{
 
 }
 
+#social-networks{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 @media screen and (min-width: 768px){
     nav{
         display: block;
@@ -120,6 +123,6 @@ main{
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #FF7518;
+        border-bottom: 1px solid #3a3a3a;
     }
 }
